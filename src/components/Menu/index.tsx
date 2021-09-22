@@ -4,10 +4,10 @@ import { ShoppingCart as ShoppingCartIcon } from '@styled-icons/material-outline
 import { Search as SearchIcon } from '@styled-icons/material-outlined/Search';
 import { Close as CloseIcon } from '@styled-icons/material-outlined/Close';
 
-import { Logo } from '../../components/Logo';
+import { Logo } from '../Logo';
+import { Button } from '../Button';
 
 import * as S from './styles';
-import { Button } from 'components/Button';
 
 export const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
